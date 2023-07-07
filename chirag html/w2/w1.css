@@ -1,0 +1,129 @@
+.header
+{
+     
+   background-color: rgb(172, 226, 172);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    }
+.home
+{
+    
+
+     width: 100%;
+ 
+    display:flex ;
+    flex-direction: row;
+   justify-content: end;
+   font-family: 'Segoe UI';
+   box-shadow:inset;
+  
+   
+}
+
+.welcome
+{
+   background-color: white;
+   
+   color:rgb(0, 0, 0) ;
+   height: 500px;
+   text-align: center;
+   font-family: 'Segoe UI';
+
+  
+
+}
+
+
+
+.main
+{
+   background-color: rgb(172, 226, 172);
+    height: 280px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+   
+    width: 25%;
+    font-family: 'Segoe UI';
+
+    
+}
+
+.link
+{
+   background-color: rgb(172, 226, 172);
+    height: 280px;
+    width: 25%;
+    font-family: 'Segoe UI';
+    
+     
+}
+.abc
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+
+    
+}
+.op
+{
+   background-color: rgb(172, 226, 172);
+    width: 25%;
+    font-family: 'Segoe UI';
+  height: 280px;
+
+}
+.p{
+
+   text-align: start;
+   margin-right: 30px;
+}
+.map
+{
+   display: flex;
+   justify-content: end;
+   background-color: rgb(172, 226, 172);
+   width: 25%;
+   padding: 20PX;
+   
+   
+}
+a{
+   margin: 15px;
+   font-size: large;
+}
+.lg{
+
+
+   background-color: rgb(215, 248, 250);
+
+   display: flex;
+   justify-content: center;
+   font-family: cursive;
+   height: 350px;
+   margin-left: 500PX;
+   margin-right: 500PX;
+   margin-top: 50PX;
+   margin-bottom: 50px;
+}
+.form
+{
+    background-color: rgb(215, 248, 250);
+
+   display: flex;
+   justify-content: center;
+   font-family: cursive;
+   height: 650px;
+   margin-left: 300PX;
+   margin-right: 300PX;
+   margin-top: 50PX;
+   margin-bottom: 50px;
+}
+
+.header a{
+   text-decoration: none;
+}

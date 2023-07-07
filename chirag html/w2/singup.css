@@ -1,0 +1,95 @@
+.form
+{
+    background-color: rgb(215, 248, 250);
+
+   display: flex;
+   justify-content: center;
+   font-family: cursive;
+   height: 600px;
+   margin-left: 300PX;
+   margin-right: 300PX;
+   margin-top: 50PX;
+}
+
+
+.header
+{
+     
+   background-color: rgb(172, 226, 172);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    }
+    .home
+{
+    
+
+     width: 100%;
+
+ 
+    display:flex ;
+    flex-direction: row;
+   justify-content: end;
+   font-family: 'Segoe UI';
+  
+   
+}
+a{
+    margin: 15px;
+    font-size: large;
+ }
+ .main
+ {
+     background: rgb(253, 251, 251);
+     height: 210px;
+     width: 350px;
+     display: flex;
+     flex-direction: column;
+     margin-left: 30px;
+     width: 25%;
+     font-family: 'Segoe UI';
+ 
+     
+ }
+ 
+ .link
+ {
+     background-color:rgb(253, 251, 251) ;
+     height: 210px;
+     width: 25%;
+     font-family: 'Segoe UI';
+     
+      
+ }
+ .abc
+ {
+     display: flex;
+     flex-direction: row;
+     flex-grow: 1;
+    width: 100%;
+    height: auto;
+ 
+     
+ }
+ .services
+ {
+     background:rgb(253, 251, 251);
+     width: 25%;
+     font-family: 'Segoe UI';
+ 
+ }
+ .p{
+ 
+    text-align: start;
+    margin-right: 30px;
+ }
+ .map
+ {
+    display: flex;
+    justify-content: end;
+ }
+ a{
+    margin: 15px;
+    font-size: large;
+ }

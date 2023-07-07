@@ -1,0 +1,33 @@
+.main
+{
+    background: rgb(253, 251, 251);
+    height: 210px;
+    width: 350px;
+   
+  
+    display: flex;
+    flex-direction: row;
+    
+
+    
+}
+
+.link
+{
+    background-color:rgb(253, 251, 251) ;
+    height: 210px;
+    width: 350px;
+    
+     
+}
+.abc
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    
+}
+.op
+{
+    background:rgb(253, 251, 251);
+}

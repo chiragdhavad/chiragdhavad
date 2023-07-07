@@ -1,0 +1,45 @@
+.h1
+{
+    text-align: center;
+}
+.text{
+    padding-left: 1px;
+}
+.input{
+    margin: 5px;
+    padding: auto;
+}
+.row{
+    margin-left: 20px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+  
+
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 3px;
+    margin-left: 595px;
+    margin-right: 380px;
+    background-color: rgb(157, 245, 216);
+    height: 188px;
+    width: 363px;
+}
+.ab{
+    border: solid rgb(28, 80, 28) 3px;
+   
+    background-color: rgb(0, 24,3);
+    margin-left: 111px;
+    margin-right:  87px;
+   
+}
+
+.B
+{
+    margin: 4px;
+}

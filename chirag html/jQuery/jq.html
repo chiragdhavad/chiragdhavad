@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+
+
+        /*$(document).ready(function () {
+            $("button").click(function () {
+              $("h2").hide();
+        });
+        });*/
+
+        /*$(document).ready(function () {
+            $("button").click(function () {
+                $("#text").hide();
+            });
+        });*/
+
+
+        /* $(document).ready(function () {
+             $("button").click(function () {
+                 $(".paragraph").hide();
+             });
+         });*/
+
+        /*$(document).ready(function () {
+            $("button").click(function () {
+                $(this).hide();
+            });
+        });*/
+
+        /* $(document).ready(function () {
+             $("button").click(function () {
+                 $("ul li:first-child").hide();
+ 
+             });
+         });*/
+        /*$(document).ready(function () {
+            $("button").click(function () {
+                $("[href]").hide();
+            });
+        });*/
+        
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("a[target='_blank']").hide();
+            });
+        });
+
+        $(document).ready(function(){
+  $("tr:odd").css("background-color", "yellow");
+});
+
+
+    </script>
+</head>
+
+<body>
+
+    <h2>This is a heading</h2>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p id="text"> this paragraph will hide if you click " Hide me "</p>
+    <p class="paragraph">class</p>
+
+    <button>Click me to hide paragraphs</button>
+    <button>Hide me </button>
+
+
+    <p> Student </p>
+    <ul>
+        <li>Chirag</li>
+        <li>Chirag</li>
+        <li>Rahul</li>
+        <li>Dipak</li>
+        <li>Ajit</li>
+    </ul>
+    <p> Faculty </p>
+    <ul>
+        <li>Chirag</li>
+        <li>Sachin Vaghela</li>
+        <li>Nilesh Dhavad</li>
+    </ul>
+
+    <button>click here</button>
+
+    <p><a href="https://techamdavad.com/" >Techamdavad</a></p>
+    <p><a href="https://techamdavad.com/course-details-fullstack-web.html"  target="_blank" >The Ultimate 2023 Fullstack - MERN Stack
+            Development 3.0 Bootcamp</a></p>
+
+    <button>click me</button>
+
+
+     <table border="2">
+        <tr>
+            <th>no.</th>
+           <th>student</th>
+           <th>time</th>
+           <th>contect number</th>
+    </tr>
+    <tr>
+        
+        <th>1</th>
+       <th>Chirag Gohil</th>
+       <th>1:30 to 3:30</th>
+       <th>147852369</th>
+</tr>
+    <tr>
+        
+        <th>2</th>
+       <th>Dipak Gohil</th>
+       <th>1:30 to 3:30</th>
+       <th>147852369</th>
+</tr>
+<tr>
+    <th>3</th>
+   <th>Ajit Vaghela</th>
+   <th>1:30 to 3:30</th>
+       <th>147852369</th>
+</tr>
+<tr>
+    <th>4</th>
+   <th>Chirag Dhavad</th>
+   <th>1:30 to 3:30</th>
+   <th>147852369</th>
+</tr>
+<tr>
+    <th>5</th>
+   <th>Rahul Dhavad</th>
+   <th>1:30 to 3:30</th>
+   <th>147852369</th>
+</tr>
+     </table>
+</body>
+
+</html>

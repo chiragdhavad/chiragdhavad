@@ -1,0 +1,118 @@
+.nav {
+
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 15px;
+    margin: 8px;
+
+}
+.link 
+{   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+     padding: 15px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.singin {
+    margin-right: 15px;
+
+}
+.njoin {
+    background-color: rgb(150, 191, 245);
+    margin-right: 10px;
+    border: 3px ;
+    height: 30px;
+    width: 200px;
+
+
+}
+
+.nstart {
+    background-color: rgb(150, 191, 245);
+    margin-right: 10px;
+    border: 3px ;
+    height: 30px;
+    width: 200px;
+    
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 40%;
+    margin-top: 41px;
+    padding: 35px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 35px;
+    margin-right: 5%;
+    margin-top: -300px;
+    
+
+
+}
+
+.input {
+    height: 33px;
+    width: 200px;
+    margin-left: 260px;
+margin-top: -48px;
+
+
+
+
+
+}
+
+.mstart {
+
+    height: 33px;
+    width: 200px;
+    background-color: rgb(150, 191, 245);
+    border: 5px;
+  
+}
+.or {
+    margin-left: 227px;
+    margin-top: -48px;
+
+}
+
+
+.Join {
+    margin-left: 500px;
+  margin-top: -32px;
+
+
+}
+
+
+.button 
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 10px;
+   margin-left: 15px;
+  
+  
+}
+.h1 {
+    
+        font-family: "Google Sans",Roboto,Arial,Helvetica,sans-serif;
+}
+.h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }

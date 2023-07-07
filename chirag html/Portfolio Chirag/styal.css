@@ -1,0 +1,109 @@
+.header 
+{
+   
+    border: 7px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    
+   
+    
+}
+.home{
+
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+.welcome
+{
+   background-color: black;
+   color:white ;
+   height: 300px;
+   padding-left: 600px;
+
+}
+.us
+{
+   border: 2px solid black;
+   width: 33%;
+   height: auto;
+
+}
+
+.ul
+{
+    border: 2px solid black; 
+    display: flex;
+    width: 33%;
+    height: auto;
+ 
+    
+}
+.map
+{    
+  
+   
+    width: 33%;
+    height: auto;
+  
+}
+
+
+.Contect
+{
+  display: flex;
+  flex-direction: row;
+
+
+}
+.cp
+{
+  
+  display: flex;
+  flex-direction: column;
+}
+p{
+  margin-left: 50%;
+
+}
+.main
+{
+    background: rgb(253, 251, 251);
+    height: 50px;
+    width: 100%;
+   
+  
+    display: flex;
+    flex-direction: row;
+    
+
+    
+}
+
+.link
+{
+    background-color:rgb(253, 251, 251) ;
+    height: 210px;
+    width: 25%;
+    
+     
+}
+.abc
+{
+    display: flex;
+    flex-direction: row;
+ 
+    width: 25%;
+    
+}
+.op
+{
+    background:rgb(253, 251, 251);
+    width: 25%;
+}
